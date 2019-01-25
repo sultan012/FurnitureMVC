@@ -1,0 +1,32 @@
+{
+  "$type": "FurnitureMVC.Models.UserData, FurnitureMVC",
+  "Id": 1,
+  "Name": "Adam Sultan",
+  "Email": "a_asultan@hotmail.com",
+  "Password": "hejsan",
+  "ShoppingCartList": [
+    {
+      "$type": "FurnitureMVC.Models.UserData+CartItem, FurnitureMVC",
+      "ProductID": 4,
+      "ProductName": "ANATOMIC",
+      "Price": 35299.0,
+      "Quantity": 1
+    },
+    {
+      "$type": "FurnitureMVC.Models.UserData+CartItem, FurnitureMVC",
+      "ProductID": 4,
+      "ProductName": "ANATOMIC",
+      "Price": 35299.0,
+      "Quantity": 1
+    },
+    {
+      "$type": "FurnitureMVC.Models.UserData+CartItem, FurnitureMVC",
+      "ProductID": 4,
+      "ProductName": "ANATOMIC",
+      "Price": 35299.0,
+      "Quantity": 1
+    }
+  ],
+  "BuyCount": 0,
+  "Points": 0
+}

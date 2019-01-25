@@ -1,0 +1,72 @@
+[
+  {
+    "$type": "FurnitureMVC.Models.UserData, FurnitureMVC",
+    "Id": 1,
+    "Name": "Adam Sultan",
+    "Email": "a_asultan@hotmail.com",
+    "Password": "hejsan",
+    "ShoppingCartList": null,
+    "BuyCount": 0,
+    "Points": 0
+  },
+  {
+    "$type": "FurnitureMVC.Models.UserData, FurnitureMVC",
+    "Id": 2,
+    "Name": "Sara Larson",
+    "Email": "sara@hotmail.com",
+    "Password": "Sara",
+    "ShoppingCartList": null,
+    "BuyCount": 0,
+    "Points": 0
+  },
+  {
+    "$type": "FurnitureMVC.Models.UserData, FurnitureMVC",
+    "Id": 2,
+    "Name": "Test1 Test2",
+    "Email": "test@test.com",
+    "Password": "test1",
+    "ShoppingCartList": null,
+    "BuyCount": 0,
+    "Points": 0
+  },
+  {
+    "$type": "FurnitureMVC.Models.UserData, FurnitureMVC",
+    "Id": 4,
+    "Name": "Erik H",
+    "Email": "Erik@hotmail.com",
+    "Password": "12345",
+    "ShoppingCartList": null,
+    "BuyCount": 0,
+    "Points": 0
+  },
+  {
+    "$type": "FurnitureMVC.Models.UserData, FurnitureMVC",
+    "Id": 5,
+    "Name": "David Larson",
+    "Email": "david@msn.se",
+    "Password": "1234",
+    "ShoppingCartList": null,
+    "BuyCount": 0,
+    "Points": 0
+  },
+  {
+    "$type": "FurnitureMVC.Models.UserData, FurnitureMVC",
+    "Id": 6,
+    "Name": "aa vv",
+    "Email": "aa@hotmail.com",
+    "Password": "123",
+    "ShoppingCartList": null,
+    "BuyCount": 0,
+    "Points": 0
+  },
+  {
+    "$type": "FurnitureMVC.Models.UserData, FurnitureMVC",
+    "Id": 7,
+    "Name": "ffffffffffffff ffffffffffffffff",
+    "Email": "a@msn.com",
+    "Password": "a",
+    "ShoppingCartList": null,
+    "BuyCount": 0,
+    "Points": 0
+  }
+]

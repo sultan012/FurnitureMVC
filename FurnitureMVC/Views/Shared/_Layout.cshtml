@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/StyleSheet.css" rel="stylesheet" />
+    <!-- Latest compiled and minified CSS -->
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">  -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <script src="https://use.fontawesome.com/c560c025cf.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Furniture</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="~/Home">Home</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li><a id="userName" style="color:white; font-size: 18px; margin-left: 75px">@Session["UserName"]</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="~/Cart" class="btn btn-lg"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</a></li>
+
+                <li><a href="Register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="Login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href="Login/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+
+    <script language="javascript">
+        
+    </script>
+</body>
+</html>
